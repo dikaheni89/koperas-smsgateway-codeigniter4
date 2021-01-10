@@ -1,0 +1,29 @@
+Sun 2020/11/29 00:44:42 gammu-smsd[8020]: Using generic SQL for ODBC, this might fail. In such case please set SQL configuration option.
+Sun 2020/11/29 00:44:42 gammu-smsd[8020]: Connected to Database odbc: koperasi on mysql_odbc
+Sun 2020/11/29 00:44:42 gammu-smsd[8020]: Created Windows RW shared memory at 00000000032F0000
+Sun 2020/11/29 00:44:42 gammu-smsd[8020]: Starting phone communication...
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: Inserting phone info
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: 42000:1:1064:[MySQL][ODBC 5.3(a) Driver][mysqld-5.5.5-10.4.8-MariaDB]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Signal) VALUES ("863448019561379", "", "yes", "yes", {fn CURRE
+
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: SQL failure: 2
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: Error inserting into database (SMSDSQL_InitAfterConnect)
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: Post initialisation failed, stopping Gammu smsd: Unknown error. (UNKNOWN[27])
+Sun 2020/11/29 00:44:50 gammu-smsd[8020]: Terminating communication...
+Sun 2020/11/29 00:47:08 gammu-smsd[6948]: Using generic SQL for ODBC, this might fail. In such case please set SQL configuration option.
+Sun 2020/11/29 00:47:08 gammu-smsd[6948]: SQLConnect failed, Code = -1, ODBC diagnostics:
+Sun 2020/11/29 00:47:08 gammu-smsd[6948]: IM002:1:0:[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+
+Sun 2020/11/29 00:47:08 gammu-smsd[6948]: Initialisation failed, stopping Gammu smsd: Unknown error. (UNKNOWN[27])
+Sun 2020/11/29 00:49:02 gammu-smsd[8104]: Using generic SQL for ODBC, this might fail. In such case please set SQL configuration option.
+Sun 2020/11/29 00:49:02 gammu-smsd[8104]: Connected to Database odbc: koperasi on localhost
+Sun 2020/11/29 00:49:02 gammu-smsd[8104]: Created Windows RW shared memory at 0000000003300000
+Sun 2020/11/29 00:49:02 gammu-smsd[8104]: Starting phone communication...
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: Inserting phone info
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: 42000:1:1064:[MySQL][ODBC 5.3(a) Driver][mysqld-5.5.5-10.4.8-MariaDB]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Signal) VALUES ("863448019561379", "", "yes", "yes", {fn CURRE
+
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: SQL failure: 2
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: Error inserting into database (SMSDSQL_InitAfterConnect)
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: Post initialisation failed, stopping Gammu smsd: Unknown error. (UNKNOWN[27])
+Sun 2020/11/29 00:49:10 gammu-smsd[8104]: Terminating communication...
